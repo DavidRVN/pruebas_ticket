@@ -40,7 +40,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-app.UseRouting();
+app.UseRouting(); 
 
 app.UseAuthorization();
 
